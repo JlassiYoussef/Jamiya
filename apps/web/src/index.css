@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;500;600;700&display=swap');
+
+:root {
+  font-family: 'DM Sans', 'Noto Sans Arabic', sans-serif;
+  color: #24332c;
+  background: #f5f4ef;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  --ink: #24332c;
+  --muted: #7d8981;
+  --paper: #f5f4ef;
+  --surface: #fffefa;
+  --line: #e9e8e0;
+  --forest: #174b3e;
+  --forest-dark: #10392f;
+  --green: #367d64;
+  --sage: #e9f0e9;
+  --amber: #d3a04a;
+  --clay: #bd7058;
+  --shadow-soft: 0 12px 32px rgba(32, 46, 37, .045);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  min-width: 320px;
+  min-height: 100%;
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  margin: 0;
+}
+
+body,
+button,
+input {
+  font-family: 'DM Sans', 'Noto Sans Arabic', sans-serif;
+}
+
+button,
+input {
+  font-size: inherit;
+}
+
+button {
+  color: inherit;
+}
+
+button:focus-visible,
+a:focus-visible,
+input:focus-visible {
+  outline: 3px solid rgba(57, 127, 100, .4);
+  outline-offset: 2px;
+}
+
+::selection {
+  color: #fff;
+  background: #397c62;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+[dir='rtl'] {
+  font-family: 'Noto Sans Arabic', 'DM Sans', sans-serif;
+}

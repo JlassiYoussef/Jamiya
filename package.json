@@ -1,0 +1,19 @@
+{
+  "name": "jamiya",
+  "private": true,
+  "workspaces": [
+    "apps/*"
+  ],
+  "engines": {
+    "node": ">=24 <25"
+  },
+  "devDependencies": {
+    "prisma": "^7.10.1"
+  },
+  "scripts": {
+    "postinstall": "npm run db:generate --workspace @jamiya/api",
+    "build": "npm run build --workspaces --if-present",
+    "test": "npm run test --workspaces --if-present",
+    "lint": "npm run lint --workspaces --if-present"
+  }
+}
