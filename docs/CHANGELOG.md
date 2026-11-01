@@ -15,6 +15,10 @@ Categories: **Added**, **Changed**, **Fixed**, **Removed**.
 
 ### Changed
 - Upgraded Prisma to version 7 and configured its PostgreSQL driver adapter.
+- Run the database seed with `tsx` to resolve generated Prisma TypeScript modules correctly.
+
+### Fixed
+- Keep member forms scrollable when the dialog is taller than the viewport.
 
 <!--
 Example of a real entry once you start building:

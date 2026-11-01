@@ -2,7 +2,7 @@
 
 Jamiya is a multilingual platform for Tunisian associations to manage their administrative and organizational activities in one place.
 
-**Team:** Youssef Jlassi, Khalil Sadem.
+**Team:** Youssef Jlassi, Khalil Sadem, Azer Nouai, Oumayma Bentaher.
 **Course:** CS 488 — AI-First Software Engineering
 **Status:** The multilingual dashboard remains a prototype; member records now have a PostgreSQL-backed API, sign-in, and association-scoped role checks.
 

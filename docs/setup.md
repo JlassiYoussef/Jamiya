@@ -56,6 +56,7 @@ The API uses Prisma 7 with its PostgreSQL driver adapter. Prisma's schema,
 generated client, migrations, and seed configuration live in `apps/api/`;
 `npm run db:generate --workspace @jamiya/api` regenerates the client after
 schema changes. The root install script generates it automatically during `npm ci`.
+The seed runs through `tsx` so Node can resolve Prisma's generated TypeScript modules.
 
 The web development server and API can be started independently after database
 setup. The API listens on port 3000 by default. Root scripts are also available
